@@ -1,0 +1,147 @@
+.container {     /*sirina okna */  /*za class klicat je treba odspred dat . */
+  width: 720px;
+}
+
+
+body {
+  background: #cff;
+}
+
+#header {         /*za id klicat je treba odspred dat #*/
+  padding-top: 20px;
+}
+
+#header img {
+  padding: 1em;
+  background: #fff;
+}
+
+#content {
+  margin-top: 10em;
+  font-size: 100%;
+  padding: 20px;
+  background: #fff;
+}
+
+#footer {
+  margin-top: 10px;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#footer .navigation {
+  float: none;
+}
+
+
+/* Links */
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {            /*ko gres cez link*/
+  color: #069;
+  text-decoration: underline;
+}
+
+a:visited {             /*ko enkrat ze obiskan*/
+  color: #069;
+  
+}
+
+/*NAVIGATION*/
+
+.navigation {
+float: right;
+}
+
+.navigation {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+ul.navigation {
+  margin: 0;
+  margin-right: 50px;
+  
+  /*list-style-type: square;                 da so odspred kvadrati */
+}
+
+.navigation li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0em;
+  padding-left: 0.5em;
+  margin-left: 0.9em;   
+}
+
+.navigation li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+.navigation li a:visited {
+  color: #09c;
+}
+
+.navigation li a:hover {
+  text-decoration: underline;
+  background: #cff;
+}
+
+/* Sign up button */
+
+/* Sign up button */
+
+a.signup_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 190px;
+  color: #fff;
+  background: #006400;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+}
+
+
+
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+}
+
+.profile {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.main {
+font-size: 150%;
+text-align: left;
+font-weight: strong;
+background: #FF0000;
+width: 70%;
+padding: 0em;
+}
+
+.sidebar {
+ background: #FFFF30;
+   width: 30%;
+   vertical-align: top;
+}
+
+.profile img.gravatar {
+  border: 3px solid #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: -30px;
+  margin-left: 30px;
+}
